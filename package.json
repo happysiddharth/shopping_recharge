@@ -1,0 +1,17 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "chatapp",
+  "main": "index.js",
+  "scripts": {
+    "compileHome": "node-sass scss/index.scss css/index.css",
+    "compileNav": "node-sass scss/navigation.scss css/navigation.css",
+    "compileNew": "node-sass scss/more_products.scss css/more_products.css",
+    "compileMain": "node-sass scss/home.scss css/home.css"
+  },
+  "author": "siddharth",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}

@@ -1,0 +1,9 @@
+Options -Indexes
+# Turn Rewrite Engine On
+RewriteEngine on
+
+
+RewriteRule signup php/creatnewuser.php [NC,L]
+RewriteRule login login.php [NC,L]
+RewriteRule orders php/order.php [NC,L]
+RewriteRule extra php/more_products.php [NC,L]
